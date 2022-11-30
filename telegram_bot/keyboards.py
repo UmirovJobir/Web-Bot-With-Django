@@ -2,6 +2,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, WebAppInfo, Inlin
 from aiogram.utils.callback_data import CallbackData
 
 # web_app = WebAppInfo(url="https://UmirovJobir.github.io/")
+web_app = WebAppInfo(url="https://2525-91-188-129-195.in.ngrok.io/catalogue/")
 
 keyboard = ReplyKeyboardMarkup(
     keyboard=[

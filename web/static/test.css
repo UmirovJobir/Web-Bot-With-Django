@@ -1,0 +1,13 @@
+.container {
+	max-width: 50%;
+}
+
+
+.img {
+	width: 130px;
+}
+
+.item {
+	text-align: center;
+	width: 50%;
+}
