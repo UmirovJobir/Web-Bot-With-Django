@@ -17,12 +17,12 @@
 } */
 
 .img {
-	width: 130px;
+	width: 230px;
 }
 
 .item {
 	text-align: center;
-	/* width: 50%; */
+	width: 50%;
 }
 
 /* .btn {

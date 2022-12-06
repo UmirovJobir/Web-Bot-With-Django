@@ -1,0 +1,30 @@
+/* .container {
+	max-width: 50%;
+} */
+
+
+.img {
+	width: 130px;
+}
+
+/* .item {
+	float: left;
+	text-align: center;
+	width: 50%;
+}	 */
+
+.item:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.test {
+	padding: 0;
+}
+
+.test li {
+	/* list-style-type: none; */
+	padding: 100px, 0;
+}
+

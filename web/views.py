@@ -10,4 +10,4 @@ def catalogueView(request):
     # page_number = request.GET.get('page')
     # print(page_number)
     # page_obj = paginator.get_page(page_number)
-    return render(request, 'catalogue.html', {'catalogues': catalogues})
+    return render(request, 'web/catalogue.html', {'catalogues': catalogues})
