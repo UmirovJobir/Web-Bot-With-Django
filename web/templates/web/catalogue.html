@@ -3,25 +3,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/static/web/test.css">
+    <link rel="stylesheet" href="/static/web/d.css">
     <title>Catalogue</title>    
 </head>
 <body>
     <div class="container">
-            <div class="inner">
-                <div class="item">
-                    <ul class="test">
-                        {% for catalogue in catalogues %}
-                        <li>    
-                            <img src="/media/{{catalogue.image}}" alt="{{catalogue.name}}" class="img">
-                            <h3>{{ catalogue.name }}</h3>
-                            {{ catalogue.price }}
-                            <button class="btn" id="btn{{catalogue.id}}">Add</button>
-                        </li>
-                        {% endfor %}    
-                    </ul>
+                <div class="items">
+                            {% for catalogue in catalogues %}
+                                <div class="item">
+                                    <img src="/media/{{catalogue.image}}" alt="{{catalogue.name}}" class="img">
+                                    {{ catalogue.name }}
+                                    {{ catalogue.price }}
+                                    <button class="btn" id="btn{{catalogue.id}}">Add</button>
+                                </div>
+                            {% endfor %}   
                 </div>
-            </div>
     </div>
     <div class="usercard" id="usercard"></div>
 

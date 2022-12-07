@@ -3,9 +3,9 @@
 } */
 
 
-.img {
-	width: 130px;
-}
+/* .img {
+	width: 530px;
+} */
 
 /* .item {
 	float: left;
@@ -13,18 +13,22 @@
 	width: 50%;
 }	 */
 
-.item:after {
+.item {
+	column-count: 2;
+}
+
+/* .item:after {
 	content: "";
 	display: table;
 	clear: both;
-}
+} */
 
-.test {
+/* .test {
 	padding: 0;
 }
 
 .test li {
-	/* list-style-type: none; */
+	list-style-type: none;
 	padding: 100px, 0;
-}
+} */
 
